@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="assets/logo.png" alt="">
+            </div>
+        </header>
+
+        <div class="container-centro">
+
+
+            <main>
+                <section class="miniatura">
+                    <div class="rosto" onmouseover="Show('capitao-America.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/capitao-america.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('capita-marvel.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/capita-marvel.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('doutor-estranho.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/doutor-estranho.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('drax.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/drax.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('feiticeira-escarlate.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/feiticeira-escarlate.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('gamora.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/gamora.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('groot.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/groot.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('Homem-Aranha.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/Homem-Aranha.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('homem-de-ferro.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/homem-de-ferro.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('homem-formiga.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/homem-formiga.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('hulk.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/hulk.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('loki.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/loki.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('maquina-de-guerra.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/maquina-de-guerra.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('nebula.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/nebula.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('nick-fury.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/nick-fury.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('pantera-negra.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/pantera-negra.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('rocket-raccoon.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/Rocket-Raccoon.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('senhor-das-estrelas.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/senhor-das-estrelas.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('thanos.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/thanos.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('thor.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/thor.webp" alt="">
+                    </div>
+                    <div class="rosto" onmouseover="Show('viuva-negra.webp')" onmouseout="Hide()">
+                        <img src="assets/rosto/viuva-negra.webp" alt="">
+                    </div>
+
+                </section>
+
+                <section class="completo">
+                    <div>
+                        <img src="assets/gif3.gif" alt="" id="photo">
+                        <h1 id="thetitle"> The Avengers </h1>
+                    </div>
+
+
+
+                </section>
+
+
+            </main>
+
+        </div>
+
+        <footer>
+            <p>
+                <img src="assets/nuvem.png" alt="" id="anima"> &copy; 2023 Jackson Dultra
+            </p>
+        </footer>
+
+    </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+
+</html>
